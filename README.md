@@ -3,18 +3,16 @@ Forked form [MuGo](https://github.com/brilee/MuGo)
 
 # Usage
 class: ``AI``  
-* Constructor  
- parameters:   
- - [Required]``game_id``: a string to mark a game  
- - [Optional]``mode``:Ignore it, I have not complete the function  
- - [Optional]``moudle_file``:The MuGo AI moudle file, default value = ``./AI_FILE/savedmodel``  
- - [Optional]``debug``:Whether to output debugging information, default value=``False``
+* Constructor parameters:   
+  - [Required]``game_id``: a string to mark a game  
+  - [Optional]``mode``:Ignore it, I have not complete the function  
+  - [Optional]``moudle_file``:The MuGo AI moudle file, default value = ``./AI_FILE/savedmodel``  
+  - [Optional]``debug``:Whether to output debugging information, default value=``False``
 
-* Main function: ``play()``  
- parameters:
- - [Required]``chess_message``:A string to describe the position of the piece <b>IN SGF FORMAT</b>,
+* Main function: ``play()`` parameters:
+  - [Required]``chess_message``:A string to describe the position of the piece <b>IN SGF FORMAT</b>,
       example: ``W[aa]``
- - [Optional]``first``:Is it the first move, default value=``False``
+  - [Optional]``first``:Is it the first move, default value=``False``
 
 
 
