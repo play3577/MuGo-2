@@ -6,7 +6,7 @@ class: ``AI``
 * Constructor parameters:   
   - [Required]``game_id``: a string to mark a game  
   - [Optional]``mode``:Ignore it, I have not complete the function  
-  - [Optional]``moudle_file``:The MuGo AI moudle file, default value = ``./AI_FILE/savedmodel``  
+  - [Optional]``moudle_file``:The MuGo AI moudle file, default value = ``./AI_FILE/savedmodel``<b>WARNING: AI file directory now is changed!</b>  
   - [Optional]``debug``:Whether to output debugging information, default value=``False``
 
 * Main function: ``play()`` parameters:
